@@ -1,0 +1,20 @@
+.offers {
+
+  margin-bottom: 70px;
+
+  &__container {
+    padding: 0 15px;
+  }
+
+  &__title {
+    @include h2;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 32px;
+  }
+
+}

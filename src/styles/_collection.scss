@@ -1,0 +1,49 @@
+.collection {
+
+  margin-bottom: 70px;
+  background-image: url(./../images/collection.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+
+  &__container {
+    padding: 155px 15px 151px;
+  }
+
+  &__title {
+    @include title-reset;
+    display: inline-block;
+    margin-right: 5px;
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 72px;
+    color: $goldColor;
+  }
+
+  &__span {
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 1px;
+    color: $goldColor;
+  }
+
+  &__subtitle {
+    @include p-reset;
+    margin-bottom: 48px;
+    width: 55%;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57.6px;
+    color: $whiteColor;
+  }
+
+  &__button {
+    @include fillButton;
+    width: 7%;
+    border: none;
+  }
+  
+}

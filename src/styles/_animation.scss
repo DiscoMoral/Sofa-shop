@@ -1,0 +1,399 @@
+// Buttons__________________________________________________________________
+
+.full-button-animation {
+
+  transition: background .3s ease-in-out, outline .3s ease-in-out;
+
+  &:focus {
+    outline: 2px solid $violetColor3;
+    background-color: $violetColor2;
+  }
+
+  &:hover {
+    background-color: $violetColor2;
+  }
+
+  &:active {
+    background-color: $violetColor3;
+  }
+
+}
+
+.empty-button-animation {
+
+  transition: background .3s ease-in-out, color .3s ease-in-out, outline .3s ease-in-out;
+
+  &:focus {
+    outline: 2px solid $violetColor;
+    color: $whiteColor;
+    background-color: $violetColor2;
+  }
+
+  &:hover {
+    color: $whiteColor;
+    background-color: $violetColor;
+  }
+
+  &:active {
+    outline: none;
+    color: $whiteColor;
+    background-color: $violetColor3;
+  }
+
+}
+
+// Links-light__________________________________________________________________
+
+.link-light-animation {
+
+  transition: background .3s ease-in-out, color .3s ease-in-out;
+
+  &:focus {
+    color: $violetColor3;
+    background-color: $violetColor4;
+  }
+
+  &:hover {
+    color: $violetColor;
+  }
+
+  &:active {
+    color: $violetColor3;
+    background-color: none;
+  }
+
+}
+
+// Links_______________________________________________________________________
+
+.link-animation {
+
+  transition: background .3s ease-in-out, color .3s ease-in-out;
+
+  &:focus {
+    color: $blackColor;
+    background-color: $violetColor4;
+  }
+
+  &:hover {
+    color: $violetColor;
+  }
+
+  &:active {
+    color: $violetColor3;
+    background-color: none;
+  }
+
+}
+
+// Menu____________________________________________________________________
+
+.menu-animation {
+
+  padding: 2px;
+  border: none;
+  fill: $violetColor;
+  background-color: inherit;
+  cursor: pointer;
+  transition: fill .3s ease-in-out, background .3s ease-in-out;
+
+  &:focus {
+    fill: $whiteColor;
+    background-color: $violetColor2;
+  }
+
+  &:hover {
+    fill: $violetColor2;
+    background-color: inherit;
+  }
+
+  &:active {
+    fill: $violetColor3;
+    background-color: inherit;
+  }
+
+}
+
+.menu-input-animation {
+
+  cursor: pointer;
+  transition: color .3s ease-in-out, background .3s ease-in-out, outline 0s ease-in-out;
+
+  &:focus {
+    border: none;
+    background-color: $violetColor5;
+    outline: 2px solid $violetColor;
+  }
+
+  &:hover {
+    border: none;
+    outline: none;
+    background-color: $grayColor4;
+  }
+
+  &:active {
+    outline: none;
+    border: none;
+    background-color: $grayColor;
+  }
+
+  &:active .menu-search{
+    fill: $violetColor;
+  }
+}
+
+// Social____________________________________________________________________
+
+.social-animation {
+
+  fill: $grayColor3;
+  cursor: pointer;
+  transition: fill .3s ease-in-out, background .3s ease-in-out;
+
+  &:focus {
+    fill: $whiteColor;
+    background-color: $violetColor;
+  }
+
+  &:hover {
+    fill: $violetColor;
+    background-color: inherit;
+  }
+
+  &:active {
+    fill: $violetColor3;
+    background-color: inherit;
+  }
+
+}
+
+// Phone____________________________________________________________________
+
+.phone-animation {
+
+  border: none;
+  background-color: inherit;
+  fill: $orangeColor;
+  cursor: pointer;
+  transition: fill .3s ease-in-out, background .3s ease-in-out, color .3s ease-in-out;
+
+  &:focus {
+    border: none;
+    outline: none;
+    color: $orangeColor;
+    fill: $orangeColor;
+    background-color: $orangeColor4;
+  }
+
+  &:hover {
+    color: $orangeColor2;
+    fill: $orangeColor2;
+    background-color: inherit;
+  }
+
+  &:active {
+    color: $orangeColor3;
+    fill: $orangeColor3;
+    background-color: inherit;
+  }
+
+  & a {
+    transition: background .3s ease-in-out, color .3s ease-in-out;
+  }
+
+  &:focus .phone__link {
+    border: none;
+    outline: none;  
+    color: $orangeColor;
+    background-color: $orangeColor4;
+  }
+
+  &:hover .phone__link {
+    color: $orangeColor2;
+    background-color: inherit;
+  }
+
+  &:active .phone__link {
+    color: $orangeColor3;
+    background-color: inherit;
+  }
+  
+}
+
+// Populars Links____________________________________________________________________
+
+.popular-animation {
+
+  display: flex;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  transition: background .3s ease-in-out, color .3s ease-in-out;
+
+  & svg {
+    fill: $grayColor;
+    stroke: $violetColor;
+    transition: fill .3s ease-in-out, stroke .3s ease-in-out;
+  }
+
+  &:hover svg {
+    stroke: red;
+  }
+
+  &:focus svg {
+    border: none;
+    outline: none;
+    fill: $violetColor2;
+    stroke: $violetColor;
+  }
+
+  &:hover svg {
+    fill: $violetColor;
+    stroke: $violetColor;
+  }
+
+  &:active svg {
+    stroke: $violetColor3;
+    fill: $violetColor3;
+  }
+
+  & span {
+    margin-right: 5px;
+    transition: color .3s ease-in-out;
+  }
+
+  &:focus .popular__span {
+    margin-bottom: -2px;
+    border-bottom:2px solid $violetColor;
+    color: $violetColor;
+  }
+
+  &:hover .popular__span {
+    margin-bottom: -2px;
+    border-bottom:2px solid $violetColor;
+    color: $violetColor;
+  }
+
+  &:active .popular__span {
+    margin-bottom: -2px;
+    border-bottom:2px solid $violetColor3;
+    color: $violetColor3;
+  }
+
+}
+
+// Form____________________________________________________________________
+
+.form-input-animation {
+
+  cursor: pointer;
+  transition: background .3s ease-in-out, outline 0.1s ease-in-out;
+
+  &::placeholder {
+    color: $grayColor2;
+  }
+
+  &:focus {
+    border: none;
+    background-color: $violetColor5;
+    outline: 2px solid $violetColor;
+  }
+
+  &:hover {
+    border: none;
+    outline: none;
+    background-color: $grayColor4;
+  }
+
+  &:active {
+    border: none;
+    outline: 1px solid $greenColor;
+    background-color: $grayColor;
+  }
+
+}
+
+// Price____________________________________________________________________
+
+.price-input-animation {
+
+  cursor: pointer;
+  transition: background .3s ease-in-out, border .3s ease-in-out;
+
+  &:focus {
+    border-color: $violetColor;
+    background-color: $violetColor4;
+  }
+
+  &:hover {
+    border-color: $violetColor;
+  }
+
+  &:active {
+    border-color: $violetColor3;
+    background-color: $whiteColor;
+  }
+
+}
+
+// Catalog
+
+.catalog-animation {
+
+  display: flex;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  transition: background .3s ease-in-out, color .3s ease-in-out;
+
+  & svg {
+    fill: $blackColor2;
+    stroke: $violetColor;
+    transition: fill .3s ease-in-out, stroke .3s ease-in-out;
+  }
+
+  &:hover svg {
+    stroke: red;
+  }
+
+  &:focus svg {
+    border: none;
+    outline: none;
+    fill: $violetColor2;
+    stroke: $violetColor;
+  }
+
+  &:hover svg {
+    fill: $violetColor;
+    stroke: $violetColor;
+  }
+
+  &:active svg {
+    stroke: $violetColor3;
+    fill: $violetColor3;
+  }
+
+  & span {
+    margin-right: 10px;
+    transition: color .3s ease-in-out;
+  }
+
+  &:focus .catalog__span {
+    margin-bottom: -2px;
+    border-bottom:2px solid $violetColor;
+    color: $violetColor;
+  }
+
+  &:hover .catalog__span {
+    margin-bottom: -2px;
+    border-bottom:2px solid $violetColor;
+    color: $violetColor;
+  }
+
+  &:active .catalog__span {
+    margin-bottom: -2px;
+    border-bottom:2px solid $violetColor3;
+    color: $violetColor3;
+  }
+
+}

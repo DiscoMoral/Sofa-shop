@@ -1,0 +1,39 @@
+.hero{
+
+  margin-bottom: 69px;
+
+  &__container-fluid {
+    background-image: url('images/hero.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+  }
+
+  &__container {
+    padding: 82px 15px;
+  }
+
+  &__title {
+    @include title-reset;
+    margin-bottom: 49px;
+    width: 42%;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65.37px;
+    color: $grayColor2
+  }
+
+  &__button {
+    @include fillButton;
+    width: 7.2%;
+  }
+
+  &__block {
+    position: relative;
+  }
+
+  &__title-invisible {
+    display: none;
+  }
+
+}

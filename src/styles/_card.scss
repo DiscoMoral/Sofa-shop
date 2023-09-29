@@ -1,0 +1,233 @@
+// Card template__________________________________________
+
+.card {
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  background-color: $grayColor;
+  border-radius: 10px;
+
+
+  &__absolute {
+    position: absolute;
+    top: 32px;
+    left: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: $orangeColor;
+  }
+
+  &__discount {
+    position: absolute;
+    top: 29px;
+    left: 0;
+    padding: 8px 19px;
+    width: 92px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    background-repeat: no-repeat;
+    background-image: url(./../images/price-bg.svg);
+    color: $whiteColor;
+  }
+
+  &__title {
+    @include title-reset;
+    @include cardTitle;
+  }
+
+  &__prices {
+    margin-bottom: 23px;
+    width: 100%;
+  }
+
+  &__new-price {
+    @include cardPrice;
+    margin-right: 30px;
+    color: $orangeColor;
+  }
+
+  &__old-price {
+    @include cardPrice;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: line-through;
+  }
+
+  &__price {
+    text-decoration: none;
+  }
+
+  &__bottom {
+    padding: 16px 41px 30px 30px;
+  }
+
+  &__button {
+    @include emptyButton;
+    width: 39%;
+  }
+  
+}
+
+.card1 {
+
+  &__image {
+    padding: 70px 51px 0;
+  }
+
+}
+
+.card2 {
+
+  grid-column: span 2;
+
+  &__image {
+    padding: 37px 88px 0;
+  }
+
+  &__function {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 230px;
+    height: 21%;
+    background-image: url(./../images/offer2-min.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &__button {
+    width: 16%;
+  }
+
+  &__title {
+    width: 36%;
+  }
+
+}
+
+.card3 {
+
+  &__image {
+    padding: 67px 75px 0;
+  }
+
+}
+
+.card4,
+.card5,
+.card6 {
+  display: none;
+}
+
+.card7 {
+
+  &__image {
+    padding: 110px 15px 0;
+  }
+
+  &__bottom {
+    padding: 16px 44px 30px 30px;
+  }
+
+}
+
+.card8 {
+
+  &__image {
+    padding: 89px 15px 0;
+  }
+
+  &__bottom {
+    padding: 16px 30px 30px;
+  }
+
+}
+
+.card9 {
+
+  &__image {
+    padding: 87px 15px 0;
+  }
+
+}
+
+.card10 {
+
+  &__image {
+    padding: 65px 15px 0;
+  }
+
+  &__bottom {
+    padding: 14px 41px 30px 30px;
+  }
+
+}
+
+.card11 {
+
+  &__image {
+    padding: 74px 15px 0;
+  }
+
+}
+
+.card12 {
+
+  &__image {
+    padding: 77px 15px 0;
+  }
+
+}
+
+.card13 {
+
+  &__image {
+    padding: 61px 15px 0;
+  }
+
+}
+
+.card14 {
+
+  &__image {
+    padding: 65px 40px 0;
+  }
+
+}
+
+.card15 {
+
+  &__image {
+    padding: 67px 16px 0;
+  }
+
+}
+
+.card16 {
+
+  &__image {
+    padding: 87px 23px 0;
+  }
+
+}
+
+.card17 {
+
+  &__image {
+    padding: 61px 33px 0;
+  }
+
+}
+
+.card18 {
+
+  &__image {
+    padding: 89px 15px 0;
+  }
+
+}

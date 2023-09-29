@@ -1,0 +1,131 @@
+.feedback {
+
+  &__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+  }
+
+  &__block {
+    padding-bottom: 88px;
+    width: 49%;
+  }
+
+  &__title {
+    @include h2;
+    margin-bottom: 9px;
+  }
+
+  &__text {
+    @include p-reset;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+    color: $grayColor3;
+  }
+
+  &__image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 49%;
+    height: 97%;
+    background-image: url(./../images/feedback.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &__image-768 {
+    display: none;
+  }
+
+}
+
+.form {
+
+  display: flex;
+  flex-direction: column;
+
+  &__name {
+    @include form;
+  }
+
+  &__tel {
+    @include form;
+  }
+
+  &__mail {
+    @include form;
+  }
+
+  &__button {
+    @include fillButton;
+    margin-bottom: 12px;
+    padding: 19px 47px;
+    width: 10%;
+  }
+
+}
+
+.checkbox {
+
+  position: relative;
+  padding-left: 22px;
+  cursor: pointer;
+  user-select: none;
+
+  &__input {
+    position: absolute;
+    appearance: none;
+  }
+
+  &__span {
+    position: absolute;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+
+  }
+
+  &__span::before {
+    content: "";
+    position: absolute;
+    left: -24px;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid $grayColor2;
+    transform: translateY(-50%);
+  }
+
+  &__span::after {
+    content: "";
+    position: absolute;
+    left: -24px;
+    top: 10px;
+    width: 16px;
+    height: 16px;
+    background-image: url(./../images/check.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+  }
+
+  &__input:checked + .checkbox__span::after {
+    opacity: 1;
+  }
+
+  &__link {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    text-decoration: underline;
+    color: $violetColor;
+  }
+
+}

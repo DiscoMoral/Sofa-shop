@@ -1,0 +1,214 @@
+.description {
+
+  margin-bottom: 70px;
+
+  &__menu {
+    padding: 22px 15px 3px;
+  }
+
+  &__pagination {
+    margin-bottom: 30px;
+  }
+
+  &__container {
+    padding: 0 15px;
+    max-width: 1280px;
+  }
+
+  &__top {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 71px;
+    padding-top: 34px;
+    background-color: inherit;
+  }
+
+  &__image {
+    width: 49%;
+    background-image: url(./../images/d-31.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &__block {
+    padding: 0 30px;
+    width: 47%;
+  }
+
+  &__absolute {
+    position: relative;
+    background-image: none;
+  }
+
+  &__title {
+    @include title-reset;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: $blackColor2;
+  }
+
+  &__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: $grayColor2;
+  }
+
+  &__prices {
+    margin-bottom: 23px;
+  }
+
+  &__price {
+    display: block;
+    margin: 16px 0 19px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46.8px;
+    color: $blackColor2;
+  }
+
+  &__buy-button {
+    @include fillButton;
+    padding: 19px 0;
+    width: 39%;
+  }
+
+  &__add-button {
+    padding: 19px 0;
+    width: 38%;
+    border: none;
+  }
+
+  &__bottom {
+    display: flex;
+    margin-bottom: 67px;
+  }
+
+  &__other-title {
+    @include title-reset;
+    margin-bottom: 22px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.2px;
+    color: $blackColor;
+  }
+
+  &__bottom-absolute {
+    top: 36px;
+    left: 31px;
+    font-size: 17px;
+    background: none;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+
+  &__good {
+    display: block;
+  }
+
+  &__card-top {
+    padding: 82px 15px 2px;
+    height: 46%;
+  }
+
+  &__card-bottom {
+    padding: 15px 30px 12px;
+  }
+
+  &__lists {
+    display: flex;
+    width: 50%;
+  }
+
+}
+
+.descr {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 30px;
+  padding-bottom: 20px;
+  width: 50%;
+
+  &__block {
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  &__title {
+    @include title-reset;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: $blackColor2;
+  }
+
+  &__text {
+    margin: 0 0 10px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25.2px;
+    color: $blackColor2;
+  }
+
+  &__image {
+    height: 29%;
+    background-image: url(.././images/d-31-min.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+}
+
+.property {
+
+  @include list-reset;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25.2px;
+  }
+
+  &__item-span-1 {
+    color: $grayColor2;
+    overflow: hidden;
+  }
+
+  &__item-span-1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 16px;
+    display: flex;
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px dotted $grayColor2;
+  }
+
+  &__item-span-3 {
+    color: $blackColor2;
+    width: 47%;
+  }
+
+  &__left {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    width: 53%;
+  }
+  
+}

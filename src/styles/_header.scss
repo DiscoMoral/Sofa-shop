@@ -1,0 +1,155 @@
+.header {
+
+  &__container-fluid {
+    width: 100%;
+    background-color: $grayColor;
+  }
+
+  &__container-fluid-1024 {
+    display: none;
+  } 
+
+  &__container-fluid-320 {
+    display: none;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+  }
+
+  &__phone {
+    display: flex;
+    align-items: center;
+  }
+
+  &__phone-320 {
+    display: none
+  }
+
+  &__list {
+    @include list-reset;
+    display: flex;
+    justify-content: space-between;
+    width: 56%;
+  }
+
+  &__link {
+    @include link-reset;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: $grayColor2;
+  }
+
+  &__logo-320 {
+    display: none;
+  }
+
+  &__catalog-pagination {
+    padding: 0 10px 13px;
+    margin: -10px auto 0 auto;
+  }
+
+}
+
+.phone {
+
+  &__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: $orangeColor;
+  }
+
+}
+
+.menu {
+
+  position: relative;
+  padding: 20px 15px 30px;
+  flex-direction: column;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 17px;
+    width: 100%;
+  }
+
+  &__list {
+    @include list-reset;
+    display: flex;
+    justify-content: space-between;
+    width: 74%;
+  }
+
+  &__link {
+    @include link-reset;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: $blackColor2;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  &__field {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80.3%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: $grayColor;
+  }
+
+  &__input {
+    position: absolute;
+    padding-left: 60px;
+    width: 97.2%;
+    height: 100%;
+    background-color: inherit;
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  &__search {
+    position: absolute;
+    left: 32px;
+    z-index: 1;
+    fill: $grayColor2;
+    transition: fill .3s ease-in-out;
+  }
+
+  &__arrows {
+    position: absolute;
+    right: 0;
+  }
+
+  &__icons {
+    position: absolute;
+    right: 15px;
+  }
+
+  &__button:first-child {
+    margin-right: 20px;
+  }
+
+  &__catalog {
+    padding: 22px 15px 6px;
+  }
+  
+}

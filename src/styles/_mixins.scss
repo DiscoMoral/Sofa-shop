@@ -1,0 +1,105 @@
+// Common__________________________________________
+
+@mixin link-reset {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+@mixin list-reset {
+  list-style: none;
+  padding: 0;
+}
+
+@mixin button-reset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-column-align: center;
+  justify-self: center;
+  text-align: center;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+@mixin title-reset{
+  padding: 0;
+  margin: 0;
+}
+
+@mixin p-reset{
+  padding: 0;
+  margin: 0;
+}
+
+// Card__________________________________________
+
+@mixin cardTitle {
+  @include title-reset;
+  margin-bottom: 23px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31.2px;
+  color: $blackColor2;
+}
+
+@mixin cardPrice {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20.8px;
+  color: $grayColor2;
+}
+
+@mixin fillButton {
+  @include button-reset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 22px 47px;
+  border-radius: 10px;
+  background-color: $violetColor;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: $whiteColor;
+}
+
+@mixin emptyButton {
+  @include button-reset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 17px;
+  border: 2px solid $violetColor;
+  border-radius: 10px;
+  background-color: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: $violetColor;
+}
+
+// Other__________________________________________
+
+@mixin h2 {
+  @include title-reset;
+  margin-bottom: 26px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  color: $blackColor2;
+}
+
+@mixin form {
+  margin-bottom: 30px;
+  padding: 7px 18px;
+  background-color: $grayColor;
+  border-radius: 10px;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: $grayColor2;
+}

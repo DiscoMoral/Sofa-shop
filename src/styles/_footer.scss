@@ -1,0 +1,89 @@
+.footer {
+
+  &__container-fluid {
+    background-color: $grayColor4;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 15px 15px 15px;
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__logo {
+    margin-bottom: 16%;
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 4px;
+    width: 66%;
+  }
+
+  &__list {
+    @include list-reset;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+  }
+
+  &__item {
+    margin-bottom: 5px;
+  }
+
+  &__link {
+    @include link-reset;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: $grayColor2;
+  }
+
+  &__link-main {
+    font-size: 16px;
+    line-height: 16px;
+    color: $blackColor2;
+  }
+
+  &__bottom {
+    margin: 0 auto;
+  }
+
+  &__span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+    color: $grayColor2;
+  }
+
+  &__container-bottom {
+    display: flex;
+    padding: 5px;
+    background-color: $grayColor;
+  }
+
+  &__button {
+    padding: 2px;
+    background-color: inherit;
+    border: none;
+  }
+
+  &__button:not(:last-child) {
+    margin-right: 14px;
+  }
+  
+}

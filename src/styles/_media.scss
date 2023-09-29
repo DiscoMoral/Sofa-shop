@@ -1,0 +1,2544 @@
+@media (max-width: 1280px) {
+
+  // Main++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  // Header block_____________________________________________________________________
+
+  .menu {
+
+    &__list {
+      justify-content: space-between;
+      width: 79%;
+    }
+
+  }
+
+  // Offers block_____________________________________________________________________
+
+  .offers {
+
+    &__grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    &__offer {
+      grid-column: span 1;
+    }
+
+  }
+
+  .card2 {
+
+    grid-column: span 1;
+
+    &__function {
+      display: none;
+    }
+
+    &__image {
+      padding: 59% 24px 0;
+    }
+
+    &__title {
+      width: 100%;
+    }
+
+    &__button {
+      width: 39%;
+    }
+
+  }
+
+  // Goods block_____________________________________________________________________
+
+  .goods {
+
+    &__grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+  }
+
+  .card13,
+  .card14 {
+    display: none;
+  }
+
+  // Catalog++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  .catalog {
+
+    &__card {
+      display: flex;
+    }
+
+    &__card-top {
+      align-items: end;
+    }
+
+  }
+
+  .filter {
+
+    &__form {
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+
+  .card13__catalog,
+  .card14__catalog {
+    display: flex;
+  }
+
+  // Card++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  .description {
+
+    &__grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    &__add-button {
+      width: 62%;
+    }
+
+    &__buy-button {
+      width: 62%;
+    }
+
+  }
+
+  .card19 {
+    display: none;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+  // Main++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  .container {
+    max-width: 951px;
+  }
+
+  // Header block_____________________________________________________________________
+
+  .header {
+
+    margin-bottom: 13px;
+
+    &__container {
+      padding: 18px 15px;
+    }
+
+    &__container-top {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 50px;
+    }
+
+    &__container-fluid {
+      background-color: $whiteColor;
+    }
+
+    &__list {
+      position: absolute;
+      left: 0;
+      top: 40px;
+      justify-content: flex-start;
+      padding: 17px 0 17px 35px;
+      width: 96.6%;
+      background-color: $grayColor;
+    }
+
+    &__item {
+      margin-right: 64px;
+    }
+
+  }
+
+  .menu {
+
+    &__top {
+      margin-bottom: 20px;
+    }
+
+    &__field {
+      width: 77%;
+    }
+
+    &__icons {
+      bottom: 176px;
+    }
+
+    &__list {
+      width: 100%;
+    }
+
+    &__logo {
+      margin-right: 30px;
+      width: 31%;
+    }
+
+    &__block {
+      width: 100%;
+    }
+
+    &__input {
+      width: 91.2%;
+    }
+
+    &__arrows {
+      right: 32px;
+    }
+
+  }
+
+  // Hero block_____________________________________________________________________
+
+  .hero {
+
+    &__container {
+      padding: 81px 15px 80px;
+    }
+
+    &__title {
+      width: 60%;
+    }
+
+    &__button {
+      width: 9.5%;
+    }
+
+  }
+
+  // Offers block_____________________________________________________________________
+
+  .offers {
+
+    &__grid {
+      grid-template-rows: 1fr;
+    }
+
+    &__title {
+      margin-bottom: 28px;
+    }
+
+  }
+
+  .offer {
+
+    &__bottom {
+      padding: 6px 28px 30px 30px;
+    }
+
+  }
+
+  .card1 {
+
+    &__image {
+      padding: 72px 50px 12px 50px;
+    }
+
+    &__bottom {
+      padding: 0 41px 30px 30px;
+    }
+
+  }
+
+  .card2 {
+
+    &__image {
+      padding: 114px 24px 42px;
+    }
+
+    &__bottom {
+      padding: 7px 41px 30px 30px;
+    }
+
+  }
+
+  .card3 {
+    
+    &__bottom {
+      padding: 17px 42px 30px 30px;
+    }
+
+  }
+
+  // Good block __________________________________________________________________________
+
+  .goods {
+
+    margin-bottom: 72px;
+
+    &__container {
+      padding: 0 15px;
+    }
+
+    &__grid {
+      gap: 30px;
+    }
+
+  }
+
+  .good {
+
+    &__bottom {
+      padding: 0 28px 30px;
+    }
+
+  }
+
+  // Collection block_____________________________________________________________________
+
+  .collection {
+
+    &__button {
+      width: 9.5%;
+    }
+
+  }
+
+  // Popular block_____________________________________________________________________
+
+  .popular {
+
+    &__container {
+      padding: 0 15px;
+    }
+
+    &__grid {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 30px;
+    }
+
+    &__item {
+      justify-content: space-between;
+    }
+
+    &__image-2 {
+      scale: 2;
+      transform: translateX(-54px);
+    }
+
+    &__image-3 {
+      scale: 2;
+      transform: translateX(56px);
+    }
+
+    &__image-4 {
+      scale: 2;
+      transform: translateX(-54px);
+    }
+
+    &__image-5 {
+      scale: 2;
+      transform: translateX(-8px);
+    }
+
+    &__item-1 {
+      grid-column: span 2;
+      orphans: 1;
+    }
+
+    &__item-2 {
+      grid-column: span 1;
+      order: 4;
+    }
+
+    &__item-3 {
+      grid-column: span 1;
+      order: 2;
+    }
+
+    &__item-4 {
+      grid-column: span 1;
+      order: 3;
+    }
+
+    &__item-5 {
+      grid-column: span 1;
+      order: 5;
+    }
+
+  }
+
+  // Usefull block_____________________________________________________________________
+
+  .usefull {
+
+    margin-bottom: 100px;
+
+    &__grid {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
+
+    &__image {
+      height: 200px;
+    }
+
+    &__block {
+      height: 60%;
+    }
+
+    &__card-3 {
+      display: block;
+    }
+
+    &__text {
+      font-size: 16px;
+      line-height: 22px;
+    }
+
+    &__button {
+      padding: 18px 35px;
+      width: 55%;
+    }
+
+  }
+  
+  // Feedback block_____________________________________________________________________
+
+  .feedback {
+
+    &__block {
+      padding-bottom: 89px;
+      width: 43%;
+    }
+
+    &__text {
+      width: 91%;
+      line-height: 19.07px;
+    }
+
+    &__image {
+      width: 55%;
+      height: 88%;
+    }
+
+  }
+
+  .form {
+
+    &__button {
+      width: 15%;
+    }
+
+  }
+
+  // Footer block_____________________________________________________________________
+
+  .footer {
+
+    &__container {
+      padding: 23px 15px 15px 15px;
+    }
+
+    &__right {
+      width: 77%;
+    }
+
+    &__button:not(:last-child) {
+      margin-right: 15px;
+    }
+
+    &__span {
+      font-size: 15px;
+      line-height: 23px;
+    }
+
+    &__list-2 {
+      padding-right: 12px;
+    }
+
+    &__list-3 {
+      padding-right: 37px;
+    }
+
+  }
+
+  // Catalog++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  .catalog {
+
+    &__container {
+      flex-direction: column;
+    }
+
+    &__left {
+      width: 45%;
+      margin-bottom: 13px;
+    }
+
+    &__collection {
+      display: none;
+    }
+
+    &__title {
+      display: none;
+    }
+
+    &__pages {
+      margin-bottom: 70px;
+    }
+
+  }
+
+  .header {
+
+    &__catalog-pagination {
+      padding: 13px 15px;
+    }
+
+  }
+
+  .pagination {
+    margin: 0;
+  }
+
+  .filter {
+
+    padding-top: 2px;
+
+    &__title-main {
+      display: none;
+    }
+
+    &__title {
+      margin-bottom: 9px;
+      width: 93%;
+    }
+
+    &__title-main-1024 {
+      display: block;
+      margin: 0 0 25px 0;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 31px;
+    }
+
+    &__category {
+      padding: 0;
+      width: 9%;
+    }
+
+    &__prices {
+      padding: 0;
+      width: 16%;
+    }
+
+    &__blocks {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 100%;
+    }
+
+    &__form {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    &__title-price {
+      margin-bottom: 5px;
+    }
+
+    &__input-price {
+      margin: 0 9px;
+      padding: 3px 8px;
+      width: 66px;
+    }
+
+  }
+
+  .checkbox {
+    &::before {
+      top: 0;
+      width: 19px;
+      height: 18px;
+    }
+  }
+
+  .page {
+    padding-left: 21px;
+  }
+
+  // Card++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  .description {
+
+    margin-bottom: 69px;
+
+    &__top {
+      margin-bottom: 42px;
+      padding-top: 7px;
+    }
+
+    &__bottom {
+      margin-bottom: 56px;
+    }
+
+    &__block {
+      padding: 0 0 0 34px;
+    }
+
+    &__menu {
+      padding: 18px 15px 20px 15px;
+    }
+
+    &__image {
+      width: 60%;
+      background-position-y: 21px;
+    }
+
+    &__buy-button {
+      width: 57%;
+    }
+
+    &__add-button {
+      width: 57%;
+    }
+
+    &__other-title {
+      margin-bottom: 23px;
+    }
+
+    &__card-top {
+      padding: 87px 22px 3px;
+    }
+
+  }
+
+  .descr {
+
+    padding: 0 0 11px;
+    width: 64%;
+
+    &__text {
+      margin: 0 0 7px 0;
+    }
+
+  }
+
+  .property {
+
+    &__left {
+      width: 46%;
+    }
+    
+    &__item-span-3 {
+      width: 53%;
+    }
+
+  }
+
+}
+
+@media (max-width: 932px) {
+
+  // Main++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  // Header block_____________________________________________________________________
+
+  .header {
+
+    margin-bottom: 0;
+
+    &__container {
+      position: relative;
+      padding: 18px 15px;
+    }
+
+    &__container-fluid {
+      background-color: $whiteColor;
+    }
+
+    &__list {
+      padding: 17px 0 17px 15px;
+      width: 98%;
+    }
+
+    &__link {
+      margin: 0;
+    }
+
+    &__item {
+      margin-right: 24px;
+    }
+
+  }
+
+  .menu {
+
+    &__top {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__list {
+      justify-content: space-between;
+      width: 78%;
+    }
+
+    &__item {
+      margin: 0;
+    }
+
+    &__link {
+      font-size: 14px;
+      line-height: 19.07px;
+    }
+
+    &__field {
+      width: 100%;
+    }
+
+    &__icons {
+      bottom: 205px;
+    }
+
+    &__block {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+  }
+
+  // Offers block_____________________________________________________________________
+
+  .offers {
+
+    &__grid {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
+
+  }
+
+  .card3 {
+    display: none;
+  }
+
+  // Goods block_____________________________________________________________________
+
+  .goods {
+
+    &__grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
+  }
+
+  // Popular block_____________________________________________________________________
+
+  .popular {
+
+    margin-bottom: 69px;
+
+    &__grid {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    &__item-1 {
+      grid-column: span 2;
+      order: 1;
+    }
+
+    &__item-2 {
+      grid-column: span 1;
+      order: 3;
+    }
+
+    &__item-3 {
+      grid-column: span 1;
+      order: 2;
+    }
+
+    &__item-4 {
+      grid-column: span 1;
+      order: 4;
+    }
+
+    &__item-5 {
+      grid-column: span 1;
+      order: 5;
+    }
+
+  }
+
+  // Usefull block_____________________________________________________________________
+
+  .usefull {
+
+    &__grid {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
+
+    &__card-3 {
+      display: none;
+    }
+
+    &__block {
+      padding: 27px 30px 30px;
+      height: 59%;
+    }
+
+    &__text {
+      margin-bottom: 10px;
+    }
+
+  }
+
+  // Footer block_____________________________________________________________________
+
+  .footer {
+
+    &__container {
+      flex-direction: column;
+    }
+
+    &__left {
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    &__right {
+      width: 100%;
+    }
+
+    &__logo {
+      padding-top: 6px;
+      margin-bottom: 18px;
+    }
+
+  }
+
+  // Card++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  .description {
+
+    &__title {
+      width: 70%;
+    }
+
+    &__bottom {
+      flex-direction: column;
+    }
+
+    &__lists {
+      width: 100%;
+    }
+
+    &__grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
+  }
+
+  .descr {
+
+    width: 100%;
+
+    &__image {
+      min-height: 110px;
+      background-position: center;
+    }
+
+  }
+
+  .property-1 {
+    width: 74%;
+  }
+
+  .card18 {
+    display: none;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  // Main++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  
+  .container {
+    max-width: 624px;
+  }
+
+  // Header block_____________________________________________________________________
+
+  .header {
+
+    padding-bottom: 3px;
+
+    &__container-top {
+      margin: 58px 0 0;
+      padding: 0 15px;
+      max-width: 100%;
+      background-color: $grayColor;
+    }
+
+    &__phone {
+      position: absolute;
+      bottom: 69px;
+      left: 72px;
+      background-color: $whiteColor;
+    }
+
+    &__list {
+      position: relative;
+      top: 0;
+      left: 0;
+      justify-content: space-between;
+      margin: 0 auto;
+      padding: 17px 0;
+      width: 86%;
+    }
+
+    &__item {
+      margin-right: 0;
+    }
+
+  }
+
+  .menu {
+
+    &__container {
+      padding: 34px 10px;
+    }
+
+    &__top {
+      padding-top: 14px;
+    }
+
+    &__list {
+      margin: 28px 0 15px 0;
+      width: 100%;
+    }
+
+    &__icons {
+      bottom: 159px;
+    }
+
+  }
+
+  // Hero block_____________________________________________________________________
+
+  .hero {
+
+    padding-top: 11px;
+
+    &__container {
+      padding: 80px 15px 78px;
+    }
+
+    &__title {
+      width: 90%;
+    }
+
+    &__button {
+      width: 15%;
+    }
+
+  }
+
+  // Offers block_____________________________________________________________________
+
+  .offers {
+
+    &__container {
+      padding: 0 15px;
+    }
+
+    &__title {
+      margin-bottom: 27px;
+    }
+
+  }
+
+  .card1 {
+    &__image {
+      padding: 72px 50px 7px;
+    }
+  }
+
+  // Goods block_____________________________________________________________________
+
+  .goods {
+
+    margin-bottom: 63px;
+
+    &__grid {
+      gap: 35px;
+    }
+
+    &__container {
+      padding: 0 15px 8px 15px;
+    }
+
+  }
+
+  .good {
+
+    &__image-8 {
+      padding: 74px 18px 17px;
+    }
+
+  }
+
+  // Collection block_____________________________________________________________________
+
+  .collection {
+
+    margin-bottom: 70px;
+
+    &__container {
+      padding: 155px 36px 151px;
+      max-width: 716px;
+    }
+
+    &__block {
+      padding: 210px 0;
+    }
+
+    &__subtitle {
+      margin-bottom: 48px;
+      width: 100%;
+    }
+
+    &__button {
+      width: 13%;
+    }
+
+  }
+
+  // Popular block_____________________________________________________________________
+
+  .popular {
+
+    &__container {
+      padding: 0 15px 0;
+    }
+
+  }
+
+  
+  // Usefull block_____________________________________________________________________
+
+  .usefull {
+
+    margin-bottom: 92px;
+
+    &__title {
+      margin-bottom: 29px;
+    }
+
+  }
+
+  // Feedback block_____________________________________________________________________
+
+  .feedback {
+
+    &__block {
+      padding-bottom: 87px;
+      width: 66%;
+    }
+
+    &__image {
+      display: none;
+    }
+
+    &__image-768 {
+      display: block;
+      width: 30%;
+      height: 100%;
+      background-image: url(../images/feedback-768.png);
+    }
+
+    &__container {
+      max-width: 624px;
+    }
+
+    &__image-768 {
+      right: 13px;
+      width: 29%;
+      height: 98%;
+    }
+
+    &__text {
+      line-height: 19.07px;
+    }
+
+  }
+
+  .form {
+
+    &__checkbox {
+      padding-left: 20px;
+    }
+
+  }
+  
+  // Footer block_____________________________________________________________________
+
+  .footer {
+
+    &__container {
+      padding: 22px 15px 15px 15px;
+    }
+
+    &__social {
+      padding-right: 48px;
+    }
+
+    &__right {
+      padding-top: 10px;
+    }
+
+  }
+
+  // Catalog++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  .catalog {
+
+    &__grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-bottom: 34px;
+    }
+
+    &__left {
+      width: 100%;
+      margin-bottom: 13px;
+    }
+
+    &__card-absolute {
+      top: 34px;
+      left: 31px;
+    }
+
+    &__card-image {
+      padding: 63px 15px 0;
+    }
+
+    &__pages {
+      margin-bottom: 73px;
+    }
+
+  }
+
+  .header {
+
+    &__catalog-pagination {
+      padding: 15px;
+    }
+
+  }
+
+  .menu {
+
+    &__container {
+      padding: 34px 10px 22px;
+    }
+
+  }
+
+  .filter {
+
+    padding-top: 14px;
+
+    &__title-main-1024 {
+      margin: 0 0 25px 0;
+    }
+
+    &__category {
+      width: 6%;
+    }
+
+    &__prices {
+      width: 43%;
+    }
+
+    &__checkbox {
+      font-size: 16px;
+      line-height: 21px;
+    }
+
+    &__input-price {
+      margin: 0 9px;
+    }
+
+  }
+
+  .page {
+
+    padding-left: 0;
+
+    &__button-768 {
+      display: flex;
+    }
+
+  }
+
+  .card7__catalog {
+    order: 1;
+  }
+
+  .card8__catalog {
+    order: 2;
+  }
+  
+  .card9__catalog {
+    order: 4;
+  }
+
+  .card10__catalog {
+    order: 3;
+  }
+
+  .card11__catalog {
+    order: 5;
+  }
+
+  .card12__catalog {
+    order: 6;
+  }
+
+  .card13__catalog,
+  .card14__catalog,
+  .card15__catalog {
+    display: none;
+  }
+
+  // Card++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  .description {
+
+    margin-bottom: 72px;
+
+    &__pagination {
+      margin-bottom: 10px;
+    }
+
+    &__top {
+      padding: 0;
+      flex-direction: column;
+    }
+
+    &__image {
+      margin-bottom: 99px;
+      width: 100%;
+      min-height: 244px;
+      transform: translateY(-9px);
+    }
+
+    &__block {
+      padding: 0;
+      width: 100%;
+    }
+
+    &__title {
+      width: 100%;
+    }
+
+    &__buy-button {
+      width: 37%;
+    }
+
+    &__add-button {
+      width: 37%;
+    }
+
+    &__bottom {
+      margin-bottom: 15px;
+    }
+
+    &__card-bottom {
+      padding: 20px 28px 30px 30px;
+    }
+
+    &__other-title {
+      margin-bottom: 19px;
+    }
+
+  }
+
+  .descr {
+
+    padding: 0 0 16px;
+    width: 83%;
+
+    &__text:last-child {
+      margin-bottom: 30px;
+    }
+
+  }
+
+  .property{
+
+    &__left {
+      width: 65%;
+    }
+    
+    &__item-span-3 {
+      width: 35%;
+    }
+
+  }
+
+}
+
+@media (max-width: 680px) {
+
+  // Main++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  //Header block_____________________________________________________________________
+
+  .header {
+
+    &__list {
+      display: none;
+    }
+
+    &__phone {
+      bottom: 0;
+      left: 20px;
+    }
+
+  }
+
+  .menu {
+
+    &__top {
+      display: block;
+    }
+
+    &__list {
+      overflow-y: auto;
+    }
+
+    &__item {
+      margin-right: 30px;
+    }
+
+    &__link {
+      font-size: 14px;
+      line-height: 19.07px;
+    }
+
+    &__input {
+      width: 87%;
+    }
+
+  }
+
+  //Offer block_____________________________________________________________________
+
+  .card {
+
+    &__title {
+      width: 100%;
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    &__prices {
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+
+  // Collection block_____________________________________________________________________
+
+  .collection {
+
+    &__button {
+      width: 50%;
+    }
+
+  }
+
+  // Popular block_____________________________________________________________________
+
+  .popular {
+
+    &__grid {
+      grid-template-columns: 48% 48%;
+      gap: 32px 16px;
+    }
+
+    &__types {
+      flex-direction: column;
+    }
+
+    &__type {
+      margin-bottom: 5px;
+    }
+
+    &__types-1 {
+      flex-direction: row;
+    }
+
+    &__image-3 {
+      transform: translateX(0);
+    }
+
+  }
+
+  // Usefull block_____________________________________________________________________
+  
+  .usefull {
+
+    &__grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    &__block {
+      height: 45%;
+    }
+
+    &__card-3 {
+      display: block;
+    }
+
+    &__card-4 {
+      display: block;
+    }
+
+    &__card-5 {
+      display: block;
+    }
+
+    &__image {
+      background-size: cover;
+    }
+
+    &__text {
+      margin-bottom: 10px;
+    }
+
+  }
+
+  // Footer block_____________________________________________________________________
+
+  .footer {
+
+    &__left {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+
+    &__social {
+      padding-right: 0;
+    }
+
+    &__right {
+      flex-wrap: wrap;
+    }
+
+    &__list {
+      margin-bottom: 20px;
+      flex: 1 0 36%;
+    }
+
+    &__list-3 {
+      padding-right: 0;
+    }
+
+    &__link {
+      line-height: 26px;
+    }
+
+  }
+  
+  // Catalog++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  .filter {
+
+    &__blocks {
+      flex-wrap: wrap;
+    }
+
+    &__category {
+      width: 50%;
+    }
+
+    &__color {
+      width: 50%;
+    }
+
+  }
+
+  // Card++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  .description {
+
+    &__image {
+      margin-bottom: 40px;
+    }
+
+    &__buy-button {
+      width: 60%;
+    }
+
+    &__add-button {
+      width: 60%;
+    }
+
+    &__card-bottom {
+      padding: 20px 20px 30px;
+    }
+
+  }
+
+  .property {
+
+    &__item {
+      justify-content: flex-start;
+    }
+
+    &__left {
+      width: 35%;
+    }
+
+  }
+}
+
+@media (max-width: 450px) {
+  
+  // Main++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  // Header block
+
+  .header {
+
+    padding-bottom: 31px;
+
+    &__card {
+      padding-bottom: 0;
+    }
+
+    &__container-top {
+      margin: 0 0 66px;
+      height: 50px;
+    }
+
+    &__phone {
+      bottom: -53px;
+      left: 13px;
+    }
+
+  }
+
+  .menu {
+
+    padding: 0 15px;
+
+    &__container {
+      padding: 10px;
+    }
+
+    &__top {
+      padding-top: 17px;
+      margin: 0;
+    }
+
+    &__logo {
+      position: absolute;
+      bottom: 188px;
+      left: 66px;
+      width: 58%;
+    }
+
+    &__icons {
+      bottom: 120px;
+    }
+
+    &__icons::before {
+      content: "";
+      position: absolute;
+      bottom: 40px;
+      right: -14px;
+      height: 1px;
+      width: 450px;
+      background-color: $grayColor;
+    }
+
+    &__icons::after {
+      content: "";
+      position: absolute;
+      top: 42px;
+      right: -14px;
+      height: 1px;
+      width: 450px;
+      background-color: $grayColor;
+    }
+
+    &__list {
+      margin: 0;
+      padding: 0;
+    }
+
+    &__item {
+      margin-right: 37px;
+    }
+
+    &__input {
+      padding-left: 57px;
+      width: 77%;
+    }
+
+    &__arrows {
+      right: 29px;
+    }
+
+  }
+
+  // Hero block_____________________________________________________________________
+
+  .hero {
+
+    padding-top: 0;
+    margin-bottom: 163px;
+
+    &__container-fluid {
+      background-position: top;
+      background-size: auto 100%;
+    }
+
+    &__container {
+      padding: 0 15px 96px;
+    }
+
+    &__block {
+      padding: 30px 15px;
+    }
+
+    &__title {
+      margin: 0;
+      width: 90%;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 27.24px;    
+    }
+
+    &__button {
+      position: absolute;
+      bottom: -188px;
+      left: -2px;
+      width: 200px;
+    }
+
+  }
+
+  // Offers block_____________________________________________________________________
+
+  .offers {
+
+    &__container {
+      padding: 0 15px 0 15px;
+    }
+
+    &__grid {
+      grid-template-columns: 1fr;
+      gap: 25px;
+    }
+
+    &__title {
+      font-size: 23px;
+      line-height: 23px;
+    }
+
+  }
+
+  .card3,
+  .card4,
+  .card5,
+  .card6 {
+    display: flex;
+  }
+
+  .card {
+
+    &__title {
+      font-size: 23px;
+      line-height: 28px;
+    }
+
+    &__prices {
+      flex-direction: row;
+      margin-bottom: 26px;
+    }
+
+  }
+
+  .card1 {
+
+    &__image {
+      padding: 72px 50px 22px;
+    }
+
+  }
+
+  .card2 {
+
+    &__image {
+      padding: 114px 19px 42px;
+    }
+    
+  }
+
+  .card3 {
+
+    &__image {
+      padding: 67px 72px 0;
+    }
+
+    &__bottom {
+      padding: 19px 45px 30px 30px;
+    }
+    
+  }
+
+  .card4 {
+
+    &__image {
+      padding: 71px 86px 0;
+    }
+
+    &__bottom {
+      padding: 18px 41px 30px 30px;
+    }
+
+  }
+
+  .card5 {
+
+    &__image {
+      padding: 119px 18px 40px;
+    }
+
+    &__title {
+      width: 90%;
+    }
+
+    &__bottom {
+      padding: 18px 41px 30px 30px;
+    }
+
+  }
+
+  .card6 {
+
+    &__image {
+      padding: 71px 56px 0;
+    }
+
+    &__bottom {
+      padding: 18px 41px 30px 30px;
+    }
+
+  }
+  
+  
+  // Goods block_____________________________________________________________________
+
+  .goods {
+
+    margin-bottom: 59px;
+    
+    &__grid {
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 10px 16px;
+    }
+
+    &__title {
+      margin-bottom: 24px;
+      font-size: 24px;
+      line-height: 24px;
+    }
+
+    &__top {
+      padding: 35px 0 0;
+    }
+
+    &__bottom {
+      padding: 20px 0;
+    }
+
+    &__button {
+      margin: 0 auto;
+      padding: 11px 35px;
+      width: 80%;
+    }
+
+    &__block {
+      padding: 0 16px;
+    }
+
+    &__image {
+      width: 75%;
+    }
+
+    &__card-title {
+      margin-bottom: 16px;
+      width: 66%;
+      font-size: 16px;
+      line-height: 20.8px;
+    }
+
+    &__absolute {
+      top: 10px;
+      left: -2px;
+      font-size: 12px;
+      line-height: 15.6px;
+    }
+
+    &__prices {
+      margin-bottom: 12px;
+    }
+
+  }
+
+  .card {
+
+    &__title-small {
+      margin-bottom: 20px;
+      font-size: 16px;
+      line-height: 20.8px;
+    }
+
+    &__absolute-small {
+      top: 16px;
+      left: 13px;
+      font-size: 14px;
+      line-height: 14px;
+    }
+
+    &__button-small {
+      padding: 10px;
+      width: 74%;
+    }
+
+    &__prices-small {
+      margin-bottom: 16px;
+    }
+
+  }
+
+  .card7 {
+
+    &__image {
+      padding: 54px 16px 0;
+    }
+
+    &__bottom {
+      padding: 21px 10px 16px 15px;
+    }
+
+  }
+
+  .card8 {
+
+    &__image {
+      padding: 46px 16px 0;
+    }
+
+    &__bottom {
+      padding: 21px 10px 16px 15px;
+    }
+
+  }
+
+  .card9 {
+
+    &__image {
+      padding: 47px 16px 0;
+    }
+
+    &__bottom {
+      padding: 21px 10px 16px 15px;
+    }
+
+  }
+
+  .card10 {
+
+    &__image {
+      padding: 44px 22px 0;
+    }
+
+    &__bottom {
+      padding: 21px 10px 16px 15px;
+    }
+
+  }
+
+  .card11 {
+
+    &__image {
+      padding: 47px 16px 0;
+    }
+
+    &__bottom {
+      padding: 19px 10px 16px 15px;
+    }
+
+  }
+
+  .card12 {
+
+    &__image {
+      padding: 47px 16px 0;
+    }
+
+    &__bottom {
+      padding: 21px 10px 16px 15px;
+    }
+
+  }
+
+  // Collection block_____________________________________________________________________
+
+  .collection {
+
+    margin-bottom: 34px;
+    background-size: auto 62%;
+    background-position: top;
+
+    &__container {
+      padding: 35px 12px 38px;
+    }
+
+    &__title {
+      font-size: 18px;
+      line-height: 18px;
+    }
+
+    &__span {
+      font-size: 18px;
+      line-height: 18px;
+    }
+
+    &__subtitle {
+      margin-bottom: 141px;
+      padding-top: 5px;
+      width: 67%;
+      font-size: 15px;
+      line-height: 20px;
+    }
+
+    &__block {
+      width: 100%;
+    }
+
+    &__button {
+      width: 200px;
+    }
+
+  }
+
+  // Popular block_____________________________________________________________________
+
+  .popular {
+
+    margin-bottom: 72px;
+
+    &__grid {
+      grid-template-rows: 1fr;
+      gap: 32px 12px;
+    }
+
+    &__container {
+      padding: 0 10px 0;
+    }
+
+    &__title {
+      font-size: 24px;
+      line-height: 24px;
+    }
+
+    &__top {
+      padding-left: 22px;
+    }
+
+    &__top-1 {
+      padding-left: 30px;
+    }
+
+    &__name {
+      display: none;
+    }
+
+    &__button {
+      display: none;
+      padding-left: 0;
+    }
+
+    &__span-320 {
+      width: 60%;
+      text-align: left;
+    }
+
+    &__button-320 {
+      display: flex;
+    }
+
+    &__link-320 {
+      justify-content: flex-start;
+      align-items:flex-end;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 25px;
+      color: $blackColor2;
+    }
+
+    &__types {
+      margin-bottom: 4px;
+    }
+
+    &__types-1 {
+      margin-bottom: 18px;
+    }
+
+    &__type {
+      margin: 0 22px 2px 0;
+      font-size: 10px;
+      line-height: 12px;
+    }
+
+    &__type-main {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 14px;
+    }
+
+    &__link-320 {
+      line-height: 16px;
+      font-size: 16px;
+    }
+
+    &__link-main {
+      line-height: 24px;
+      font-size: 24px;
+    }
+
+    &__item-2 {
+      padding: 18px 0;
+    }
+
+    &__item-3{
+      padding: 18px 0;
+    }
+
+    &__item-4 {
+      padding: 18px 0;
+    }
+
+    &__item-5 {
+      padding: 18px 0;
+    }
+
+    &__image-1 {
+      padding-bottom: 34px;
+      scale: 1.46;
+      transform: translate(6px, 39px);
+    }
+
+    &__image-2 {
+      padding-bottom: 15px;
+      scale: 1.46;
+      transform: translate(10px, 24px);
+    }
+
+    &__image-3 {
+      padding-bottom: 15px;
+      scale: 1.46;
+      transform: translate(20px, 24px);
+    }
+
+    &__image-4 {
+      padding-bottom: 5px;
+      scale: 1.2;
+      transform: translate(15px, 24px);
+    }
+
+    &__image-5 {
+      padding-bottom: 5px;
+      scale: 1.45;
+      transform: translate(24px, 17px);
+    }
+
+  }
+
+  // Usefull block_____________________________________________________________________
+
+  .usefull {
+
+    margin-bottom: 70px;
+
+    &__grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      gap: 24px;
+    }
+
+    &__title {
+      font-size: 23px;
+      line-height: 23px;
+    }
+
+    &__text {
+      margin-bottom: 30px;
+      width: 100%;
+    }
+
+    &__block {
+      padding: 30px;
+      height: 55%;
+    }
+
+  }
+  
+  // Feedback block_____________________________________________________________________
+
+  .feedback {
+
+    &__container {
+      padding: 0 10px;
+      margin-bottom: 72px;
+      max-width: 314px;
+    }
+
+    &__image-768 {
+      display: none;
+    }
+
+    &__block {
+      padding-bottom: 16px;
+      width: 100%;
+    }
+
+    &__title {
+      margin-bottom: 4px;
+      font-size: 23px;
+      line-height: 23px;
+      letter-spacing: .7px;
+    }
+
+  }
+
+  .form {
+
+    &__button {
+      margin-bottom: 14px;
+      width: 68px;
+    }
+
+    &__checkbox {
+      padding-left: 8px;
+    }
+
+  }
+
+  .checkbox {
+
+    &__link {
+      font-size: 13px;
+    }
+
+    &__span {
+      padding-left: 11px;
+      font-size: 12px;
+      line-height: 21px;
+    }
+
+    &__span::before {
+      left: -9px;
+    }
+
+    &__span::after {
+      left: -9px;
+    }
+
+  }
+
+  // Footer block_____________________________________________________________________
+
+  .footer {
+
+    &__container {
+      padding: 19px 0 0 0;
+    }
+
+    &__container-bottom {
+      padding: 0;
+    }
+
+    &__logo {
+      margin-bottom: 19px;
+    }
+
+    &__left {
+      margin-bottom: 14px;
+    }
+
+    &__list {
+      flex: 1 0 34%;
+      padding: 0;
+      margin-bottom: 22px;
+    }
+
+    &__link {
+      line-height: 23px;
+    }
+
+    &__item {
+      margin: 0;
+    }
+
+    &__right {
+      padding: 6px 15px 0 15px;
+      width: 90%;
+    }
+
+  }
+
+  // Catalog++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  .header {
+
+    &__catalog-pagination {
+      display: none;
+    }
+
+  }
+
+  .menu {
+
+    &__catalog {
+      padding: 10px 10px 0 10px;
+    }
+
+  }
+
+  .filter {
+
+    padding-top: 0;
+
+    &__title {
+      margin-bottom: 8px;
+    }
+
+    &__title-main-1024 {
+      margin: -10px 0 27px 0;
+    }
+
+    &__span::after {
+      left: -24px;
+      width: 18px;
+      height: 18px;
+    }
+
+    &__span::before {
+      left: -24px;
+      width: 18px;
+      height: 18px;
+    }
+
+    &__category {
+      width: 42%;
+    }
+
+    &__span {
+      padding-left: 10px;
+      font-size: 16px;
+      line-height: 20.8px;
+    }
+
+    &__checkbox {
+      margin-bottom: 33px;
+    }
+
+    &__after {
+      left: -24px;
+    }
+
+    &__prices {
+      padding-top: 5px;
+      width: 100%;
+    }
+
+    &__title-price {
+      margin: 0;
+    }
+
+    &__form {
+      align-items: center;
+    }
+
+    &__input-price {
+      padding: 5px 12px;
+      width: 58px;
+    }
+
+    &__blocks {
+      width: 93%;
+    }
+
+  }
+
+  .catalog {
+
+    &__grid {
+      margin-bottom: 30px;
+      gap: 7px 15px;
+    }
+
+    &__pages {
+      margin-bottom: 72px;
+    }
+
+    &__container {
+      padding: 0 12px;
+    }
+
+    &__left {
+      margin-bottom: 29px;
+      min-width: 300px;
+    }
+
+    &__card-title {
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    &__card-image {
+      padding: 37px 15px 6px;
+    }
+
+    &__card-top {
+      padding: 35px 15px 7px;
+    }
+
+    &__card-bottom {
+      padding: 0 0 17px;
+    }
+
+    &__card-button {
+      padding: 10px;
+      margin: 0 auto;
+      width: 77%;
+    }
+    
+    &__card-block {
+      padding: 13px 15px 8px;
+    }
+
+    &__card-title {
+      margin-bottom: 19px;
+    }
+
+    &__card-prices {
+      margin-bottom: 10px;
+    }
+
+    &__card-absolute {
+      top: 18px;
+      left: 14px;
+      font-size: 14px;
+      line-height: 13px;
+    }
+
+    &__card6 {
+      order: 3;
+    }
+
+    &__card7 {
+      order: 4;
+    }
+
+  }
+
+  .card10__catalog {
+    order: 4;
+  }
+
+  .card9__catalog {
+    order: 3;
+  }
+
+  // Card++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  .header {
+
+    &__descr {
+      padding-bottom: 26px;
+    }
+
+  }
+
+  .description {
+
+    margin-bottom: 68px;
+
+    &__grid {
+      gap: 20px;
+    }
+
+    &__bottom {
+      margin-bottom: 44px;
+    }
+
+    &__absolute {
+      top: 0;
+    }
+
+    &__image {
+      align-self: center;
+      margin-bottom: 0;
+      min-height: 132px;
+      width: 100%;
+      transform: translateY(-22px);
+    }
+    
+    &__menu {
+      padding: 10px 10px 3px 10px;
+    }
+
+    &__title {
+      font-size: 16px;
+      line-height: 25px;
+    }
+
+    &__subtitle {
+      line-height: 14px;
+    }
+
+    &__card-title {
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    &__card-block {
+      padding: 0 15px;
+    }
+
+    &__price {
+      font-size: 24px;
+      line-height: 24px;
+    }
+
+    &__prices {
+      margin-bottom: 10px;
+    }
+
+    &__buy-button {
+      width: 100%;
+    }
+
+    &__add-button {
+      width: 100%;
+    }
+
+    &__top {
+      margin-bottom: 0;
+    }
+
+    &__bottom-absolute {
+      top: 20px;
+      left: 13px;
+      font-size: 12px;
+    }
+
+    &__other-title {
+      margin-bottom: 20px;
+    }
+
+    &__button {
+      margin: 0 auto;
+      padding: 10px;
+      width: 80%;
+    }
+
+  }
+
+
+  .property {
+
+    &__item {
+      flex-direction: column;
+      margin-bottom: 5px;
+      line-height: 25px;
+    }
+
+    &__item-span-1 {
+      font-size: 11px;
+      line-height: 11px;
+    }
+
+  }
+
+  .descr {
+
+    margin-right: 0;
+    padding: 0;
+    width: 100%;
+
+    &__block {
+      padding-top: 13px;
+      width: 100%;
+    }
+
+    &__text {
+      width: 100%;
+    }
+
+    &__text:last-child {
+      margin-bottom: 11px;
+    }
+
+    &__image {
+      min-height: 100px;
+    }
+
+  }
+
+  .card16 {
+
+    &__image {
+      padding: 50px 14px 0;
+    }
+
+    &__bottom {
+      padding: 17px 10px 16px 15px;
+    }
+
+  }
+
+  .card17 {
+
+    &__image {
+      padding: 44px 14px 0;
+    }
+
+    &__bottom {
+      padding: 6px 10px 16px 15px;
+    }
+
+  }
+}
